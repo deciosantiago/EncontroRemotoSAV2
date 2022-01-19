@@ -8,7 +8,7 @@ namespace Encontro_Remoto
         public string? endereco { get; set; }
         public bool enderecoComercial { get; set; }
         
-        public abstract void PagarImposto();
+        public abstract void PagarImposto(float salario);
         
     }
 }
