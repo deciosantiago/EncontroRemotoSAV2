@@ -10,7 +10,7 @@ namespace Encontro_Remoto
         {
         }
 
-        public bool? ValidarDataNascimento(DateTime dataNasc)
+        public bool ValidarDataNascimento(DateTime dataNasc)
         {
             DateTime dataAtual = DateTime.Today;
 

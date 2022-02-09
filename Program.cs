@@ -33,14 +33,30 @@ namespace Encontro_Remoto
 
 
             PessoaFisica NovaPf = new PessoaFisica();
-            NovaPf.ValidarDataNascimento(NovaPf.dataDeNascimento);
+            //NovaPf.ValidarDataNascimento(NovaPf.dataDeNascimento);
+
+            //Console.WriteLine("Rua: " + Pf.endereco.logradouro + ", " + Pf.endereco.numero);
+            //Console.WriteLine("Pessoa Juridica: " + "Cnpj: " + Pj.cnpj + ", " + "Razão social: " + Pj.razaoSocial);
+            //Console.WriteLine("Pessoa Fisica: " + "Nome: " + Pf.nome + ", " + "Cpf: " + Pf.cpf + ", " + "Data de Nasc: " + Pf.dataDeNascimento);
+            //Console.WriteLine("Maior de 18 anos? " + NovaPf.ValidarDataNascimento(Pf.dataDeNascimento) );
+
+            bool idadeValida = NovaPf.ValidarDataNascimento(NovaPf.dataDeNascimento);
 
 
+            Console.WriteLine(idadeValida);
 
-            Console.WriteLine("Rua: " + Pf.endereco.logradouro + ", " + Pf.endereco.numero);
-            Console.WriteLine("Pessoa Juridica: " + "Cnpj: " + Pj.cnpj + ", " + "Razão social: " + Pj.razaoSocial);
-            Console.WriteLine("Pessoa Fisica: " + "Nome: " + Pf.nome + ", " + "Cpf: " + Pf.cpf + ", " + "Data de Nasc: " + Pf.dataDeNascimento);
-            Console.WriteLine("Maior de 18 anos? " + NovaPf.ValidarDataNascimento(Pf.dataDeNascimento) );
+            if (idadeValida == true)
+            {
+
+                Console.WriteLine("Cadastro Aprovado");
+
+            }
+            else
+            {
+
+                Console.WriteLine("Cadastro inválido");
+            }
+
 
 
 
