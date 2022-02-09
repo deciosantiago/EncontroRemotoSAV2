@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WORM\\Desktop\\Encontro Remoto\\Encontro Remoto.csproj",
+      "projectUniqueName": "C:\\Users\\WORM\\Documents\\CURSOBACK-END\\Encontro Remoto\\Encontro Remoto.csproj",
       "projectName": "Encontro Remoto",
-      "projectPath": "C:\\Users\\WORM\\Desktop\\Encontro Remoto\\Encontro Remoto.csproj",
+      "projectPath": "C:\\Users\\WORM\\Documents\\CURSOBACK-END\\Encontro Remoto\\Encontro Remoto.csproj",
       "packagesPath": "C:\\Users\\WORM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WORM\\Desktop\\Encontro Remoto\\obj\\",
+      "outputPath": "C:\\Users\\WORM\\Documents\\CURSOBACK-END\\Encontro Remoto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WORM\\AppData\\Roaming\\NuGet\\NuGet.Config"
