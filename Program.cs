@@ -35,15 +35,15 @@ namespace Encontro_Remoto
             PessoaFisica NovaPf = new PessoaFisica();
             //NovaPf.ValidarDataNascimento(NovaPf.dataDeNascimento);
 
-            //Console.WriteLine("Rua: " + Pf.endereco.logradouro + ", " + Pf.endereco.numero);
-            //Console.WriteLine("Pessoa Juridica: " + "Cnpj: " + Pj.cnpj + ", " + "Razão social: " + Pj.razaoSocial);
-            //Console.WriteLine("Pessoa Fisica: " + "Nome: " + Pf.nome + ", " + "Cpf: " + Pf.cpf + ", " + "Data de Nasc: " + Pf.dataDeNascimento);
+            Console.WriteLine("Endereço: " + Pf.endereco.logradouro + ", " + Pf.endereco.numero);
+            Console.WriteLine("Pessoa Juridica:  \r\n" + "Cnpj: " + Pj.cnpj + ", " + "Razão social: " + Pj.razaoSocial);
+            Console.WriteLine("Pessoa Fisica:  \r\n" + "Nome: " + Pf.nome + ", " + "Cpf: " + Pf.cpf + ", " + "Data de Nasc: " + Pf.dataDeNascimento);
             //Console.WriteLine("Maior de 18 anos? " + NovaPf.ValidarDataNascimento(Pf.dataDeNascimento) );
 
             bool idadeValida = NovaPf.ValidarDataNascimento(NovaPf.dataDeNascimento);
 
 
-            Console.WriteLine(idadeValida);
+            Console.WriteLine("Maior de idade: " + idadeValida);
 
             if (idadeValida == true)
             {
